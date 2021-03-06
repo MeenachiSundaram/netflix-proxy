@@ -40,7 +40,10 @@ services:
     build:
       context: docker-sniproxy
     privileged: true
-    network_mode: host
+    # network_mode: host
+    ports:
+      - "8000:80"
+      - "8443:443"
     cap_add:
       - NET_ADMIN
     volumes:

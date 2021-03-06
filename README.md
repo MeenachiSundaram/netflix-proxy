@@ -51,8 +51,8 @@ The following paragraphs show how to get this solution up and running with a few
 ```
 mkdir -p ~/netflix-proxy\
   && cd ~/netflix-proxy\
-  && curl -fsSL https://github.com/ab77/netflix-proxy/archive/latest.tar.gz | gunzip - | tar x --strip-components=1\
-  && ./build.sh
+  && curl -fsSL https://github.com/MeenachiSundaram/netflix-proxy/archive/latest.tar.gz | gunzip - | tar x --strip-components=1\
+  && ./build.sh -b 1
 ```
 
 4. Make sure to **record the URL and credentials** for the `netflix-proxy` admin site.
